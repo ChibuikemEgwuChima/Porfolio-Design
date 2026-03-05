@@ -9,28 +9,29 @@
 </head>
 <body>
     <header>
-        <div class="head-container">
-         <div class="head-name">
-            <h1>Dante</h1>
-         </div>
-         <div class="head-links">
-            <nav>
-                <a>About Me</a>
-                <a>Skills</a>
-                <a>Project</a>
-                <a>Contact</a>
-            </nav>
-         </div>
-        </div>
+        <nav>
+            <div class="head-container">
+                <div class="head-name">
+                   <h1>Dante</h1>
+                </div>
+                <div class="head-links">
+                  <ul>
+                    <li><a href="#about">About Me</a></li>
+                   <li><a href="#skills">Skills</a></li>
+                  <li><a href="#project">Project</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                  </ul>    
+                </div>
+               </div>
+        </nav>
     </header>
     <main>
-        <section>
-            <div class="section1-container flex1">
+        <section id="about">
+            <div class="section-container">
                 <div class="section1-text">
                     <p>Welcome To my site</p>
                     <h2>Hi, i'm Dante A <span>Frontend Developer</span></h2>
                     <p>Aspiring frontend developer, I'm passionate about creating beautiful respnsive and functional designs</p>
-                    <!-- <input type="button" class="btn" placeholder="See My Project"> -->
                      <button class="btn">See My Project</button>
                 </div>
                 <div class="section1-image">
@@ -38,8 +39,7 @@
                 </div>
             </div>
         </section>
-        <section>
-           <div class="section2-container">
+        <section id="skills">
             <div class="section2 flex">
                 <div>
                     <h2>10+</h2>
@@ -54,23 +54,22 @@
                     <p>Overall rate</p>
                 </div>
                 </div>
-           </div>
         </section>
-        <section>
-            <div class="section3-container flex">
+        <section id="project">
+            <div class="section-container">
                 <div class="section3-image">
                 <img src="images/pics2.jpeg" alt="second picture">
                 </div>
                 <div class="section3-text">
                     <p>About Me</p>
-                    <h2>Know about<span>me!</span></h2>
+                    <h2>Know about <span>me!</span></h2>
                     <p> hsjchchu ghcbuhh hb hisxbh7yhhjjxnsnb uhxjibh  oi hgbucj cuhc</p>
                     <button class="btn2">More About Me</button>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="section4-container flex1">
+        <section id="contact">
+            <div class="section-container">
               <div class="section4-text">
                <p>Contact</p>
                <h2>Let's Work <span>Together!</span></h2>
@@ -81,10 +80,10 @@
               </div>
             </div>
         </section>
-        <section>
-            <div class="section5-container flex1">
-               <div>
+        <section class="dante">
+            <div class="section-container">
                 <h2>Dante</h2>
+                <div class="icons">
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-x-twitter"></i>
                 <i class="fa-brands fa-github"></i>
